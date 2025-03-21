@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fit FIT-verse - Find Your Perfect Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script defer src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">FIT-verse</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#" class="nav-item">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-item">Services ⬇</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Personal Training</a></li>
+                        <li><a href="#">Membership Plans</a></li>
+                        <li><a href="#">Diet Plans</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="nav-item">Contact</a></li>
+                <li><a href="login.html" class="nav-item">Login</a></li>
+            </ul>
+            <div class="menu-toggle">&#9776;</div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1><span>Change</span> Your Fitness Journey</h1>
+            <p>Join the best gyms near you and achieve your fitness goals.</p>
+            <button class="explore-btn">Explore Now</button>
+        </div>
+    <div class="search-container">
+        <h2>Find Your Gym</h2>
+        <form id="gymSearchForm">
+            <div class="input-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" placeholder="Enter city name">
+            </div>
+            <div class="input-group">
+                <label for="pincode">Pincode:</label>
+                <input type="number" id="pincode" placeholder="Enter pincode">
+            </div>
+            <div class="input-group">
+                <label for="priceRange">Monthly Price: <span id="priceValue">₹2000</span></label>
+                <input type="range" id="priceRange" min="500" max="5000" step="100" value="2000">
+            </div>
+            <button type="submit" class="search-btn">Search Gym</button>
+        </form>
+    </div>
+    </section>
+    <!-- Features Section -->
+     <div class="features-section">
+<div class="features">
+    <h2>Our Features</h2>
+    <div class="features-container">
+        <div class="feature-box">
+            <i class="fas fa-dumbbell"></i>
+            <h3>Top-Quality Equipment</h3>
+            <p>We provide the latest gym equipment for your workout needs.</p>
+        </div>
+        <div class="feature-box">
+            <i class="fas fa-user-md"></i>
+            <h3>Expert Trainers</h3>
+            <p>Get guidance from certified fitness professionals.</p>
+        </div>
+        <div class="feature-box">
+            <i class="fas fa-map-marked-alt"></i>
+            <h3>Find Gyms Nearby</h3>
+            <p>Locate the best gyms in your city with ease.</p>
+        </div>
+        <div class="feature-box">
+            <i class="fas fa-wallet"></i>
+            <h3>Affordable Plans</h3>
+            <p>Choose from flexible pricing plans that fit your budget.</p>
+        </div>
+    </div>
+    </div>
+    <!-- Gym Images Section -->
+    <div class="gym-icons">
+        <img src="gym1.jpg" alt="Gym in City 1">
+        <img src="gym2.jpg" alt="Gym in City 2">
+        <img src="gym3.jpg" alt="Gym in City 3">
+    </div>
+</div>
+<footer class="footer">
+    <div class="social-links">
+        <a href="https://facebook.com" class="social-icon facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" class="social-icon twitter" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com" class="social-icon instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com" class="social-icon linkedin" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+    </div>
+</footer>
+
+<!-- Font Awesome for icons -->
+<script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+
+    
+       
+
+    
+
+    
+</body>
+</html>

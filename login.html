@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign Up</title>
+    <link rel="stylesheet" href="styleslogin.css">
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="form-container">
+        <div class="toggle-buttons">
+            <button id="show-login">Sign In</button>
+            <button id="show-signup">Sign Up</button>
+        </div>
+        
+        <!-- Login Form -->
+        <form id="login-form" class="active">
+            <h2>Sign In</h2>
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Email or Phone" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="animated-button">Login</button>
+            <p class="switch">Don't have an account? <a href="#" id="switch-to-signup">Sign up</a></p>
+        </form>
+
+        <!-- Sign Up Form -->
+        <form id="signup-form">
+            <h2>Sign Up</h2>
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Full Name" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-phone"></i>
+                <input type="tel" placeholder="Phone Number" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="animated-button">Sign Up</button>
+            <p class="switch">Already have an account? <a href="#" id="switch-to-login">Sign in</a></p>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
